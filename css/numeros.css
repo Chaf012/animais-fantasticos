@@ -1,0 +1,22 @@
+.numeros-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2/4;
+  gap: 30px;
+}
+
+.numeros-grid h3 {
+  font: 600 2rem/1 "Playfair Display SC", georgia;
+  margin-bottom: 0.5rem;
+}
+
+.numeros-grid span {
+  font: 900 1.5rem/1 "IBM Plex Mono", monospace;
+  color: #ee5544;
+}
+
+@media (max-width: 700px) {
+  .numeros-grid {
+    grid-column: 1;
+  }
+}
