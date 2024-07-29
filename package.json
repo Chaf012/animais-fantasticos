@@ -6,7 +6,6 @@
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
-  "author": "CHAF",
   "license": "ISC",
   "description": "",
   "devDependencies": {
